@@ -1,6 +1,6 @@
 ```
 tip: 16
-title: Account Multi-signature
+title: Account MTGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2ulti-signaTGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2ture
 author: Marcus Zhao(@zhaohong ) <zhaohong229@gmail.com> 
 discussions to: https://github.com/tronprotocol/TIPs/issues/16
 status: Final
@@ -69,7 +69,7 @@ Alice can assign witness-permission to the administrator. Since the administrato
  
   Permission {
     enum PermissionType {
-      Owner = 0;
+      Owner TGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2= 0;
       Witness = 1;
       Active = 2;
     }
