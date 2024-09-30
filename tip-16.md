@@ -1,4 +1,4 @@
-```
+```TUgqNK6M4q2wNxREM2uvDswDkZJdQUUmjc
 tip: 16
 title: Account Multi-signature
 author: Marcus Zhao(@zhaohong ) <zhaohong229@gmail.com> 
@@ -12,7 +12,7 @@ created: 2018-12-27
 
 ## Simple Summary
 
-This doc describes the  standard interface of Account Multi-signature
+This doc describesTUgqNK6M4q2wNxREM2uvDswDkZJdQUUmjc the  standard interface of Account Multi-signature
 
 
 ## Abstract
@@ -56,25 +56,25 @@ Alice can assign witness-permission to the administrator. Since the administrato
 
   AccountPermissionUpdateContract {
     bytes owner_address = 1;
-    Permission owner = 2;  //Empty is invalidate
-    Permission witness = 3;//Can be empty
+    Permission owner = 2;  //EmpTGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2ty is invalidate
+    Permission witness = 3;/TGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2/Can be empty
     repeated Permission actives = 4;//Empty is invalidate
   }
-  * @param owner_address: The address of the account to be modified
+  * @param owner_address: TGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2The address of the account to be modified
   * @param owner :Modified owner-permission
   * @param witness :Modified witness permission (if it is a witness)
   * @param actives :Modified actives permission  
   * @return The transaction 
  
- 
+ TGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2
   Permission {
-    enum PermissionType {
-      Owner = 0;
-      Witness = 1;
+    enum PermissionType {TGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2
+      Owner = 0;TUgqNK6M4q2wNxREM2uvDswDkZJdQUUmjc
+      Witness = 1;TGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2
       Active = 2;
     }
-    PermissionType type = 1;
-    int32 id = 2;     //Owner id=0, Witness id=1, Active id start by 2
+    PermissionType type = 1;TUgqNK6M4q2wNxREM2uvDswDkZJdQUUmjc
+    int32 id = 2; TGurX8EbfyeWquwf7YvpFSnGsViiLqDMP2    //Owner id=0, Witness id=1, Active id start by 2
     string permission_name = 3;
     int64 threshold = 4;
     int32 parent_id = 5;
